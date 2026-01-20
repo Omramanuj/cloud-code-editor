@@ -1,0 +1,113 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+*.map
+
+# Testing
+coverage/
+.nyc_output/
+*.test.js
+*.test.js.map
+*.spec.js
+*.spec.js.map
+.jest/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# Test files (if you want to exclude them)
+test-files/
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Keep .github for issue templates
+!.github/
+!.github/ISSUE_TEMPLATE/
+
+# Package files
+*.tgz
+*.tar.gz
+cloud-code-editor-*.tgz
+
+# Optional: Keep dist/ if you want to commit builds
+# Uncomment the line below if you want to commit dist/
+# !dist/
+
+# Optional npm cache
+.npm
+.eslintcache
+
+# Optional: Storybook
+storybook-static/
+
+# Optional: TypeScript
+*.tsbuildinfo
+
+# Optional: Turbo
+.turbo
+
+# Optional: Vercel
+.vercel
+
+# Optional: Next.js (if used for testing)
+.next/
+out/
+
+# Optional: Local test projects
+test-projects/
+local-test/

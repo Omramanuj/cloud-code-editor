@@ -1,0 +1,82 @@
+{
+  "name": "cloud-code-editor",
+  "version": "1.0.0",
+  "description": "Highly customizable cloud code editor with glassmorphism UI - Zero config, works out of the box",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "import": "./dist/server.mjs",
+      "require": "./dist/server.js"
+    },
+    "./styles": "./dist/styles.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "CONTRIBUTING.md",
+    "EXAMPLES.md",
+    "SIMPLE_USAGE.md",
+    "PROJECT_STRUCTURE.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "code-editor",
+    "monaco",
+    "react",
+    "nextjs",
+    "glassmorphism",
+    "cloud",
+    "e2b",
+    "ide",
+    "editor",
+    "typescript",
+    "zero-config"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Omramanuj/cloud-code-editor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Omramanuj/cloud-code-editor/issues"
+  },
+  "homepage": "https://github.com/Omramanuj/cloud-code-editor#readme",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^14.0.0"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.6.0",
+    "monaco-editor": "^0.45.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "tsup": "^8.0.0",
+    "eslint": "^8.56.0"
+  },
+  "optionalDependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "@e2b/code-interpreter": "^0.1.0"
+  }
+}
