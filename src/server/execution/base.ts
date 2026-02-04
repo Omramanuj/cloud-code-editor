@@ -1,3 +1,3 @@
 import { ExecutionAdapter, FileMap, ExecutionResult } from '../../types';
 
-export { ExecutionAdapter, FileMap, ExecutionResult };
+export type { ExecutionAdapter, FileMap, ExecutionResult };

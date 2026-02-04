@@ -1,6 +1,6 @@
 {
   "name": "cloud-code-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Highly customizable cloud code editor with glassmorphism UI - Zero config, works out of the box",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -55,7 +55,7 @@
   "bugs": {
     "url": "https://github.com/Omramanuj/cloud-code-editor/issues"
   },
-  "homepage": "https://github.com/Omramanuj/cloud-code-editor#readme",
+  "homepage": "https://ide-on-web-demo.vercel.app",
   "peerDependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

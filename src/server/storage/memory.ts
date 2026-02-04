@@ -33,7 +33,7 @@ export class MemoryStorageAdapter implements StorageAdapter {
 
     const fileMap = new Map<string, FileNode>();
     
-    for (const [filePath] of project.entries()) {
+    for (const [filePath] of Array.from(project.entries())) {
       const parts = filePath.split('/');
       let currentPath = '';
 

@@ -4,6 +4,10 @@ A highly customizable, modular cloud code editor package for Next.js with beauti
 
 **✨ Zero Config - Works out of the box with sensible defaults!**
 
+## 🚀 Demo
+
+**[Try the live demo →](https://ide-on-web-demo.vercel.app)**
+
 ## ⚠️ Project Status
 
 **This project was built in 24 hours as a foundation.** While it's functional and ready to use, it's not production-perfect yet. We're actively working on improvements and welcome contributions!
